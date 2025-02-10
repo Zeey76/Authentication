@@ -1,6 +1,7 @@
 import {
   SignInButton,
   SignOutButton,
+  SignUpButton,
   SignedIn,
   SignedOut,
 } from "@clerk/nextjs";
@@ -23,6 +24,7 @@ export const Navigation = () => {
                   Sign In
                 </button>
               </SignInButton>
+              <SignUpButton />
             </SignedOut>
             <SignedIn>
               <Link 
